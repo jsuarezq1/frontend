@@ -1,0 +1,35 @@
+header{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+h1, h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+/* Main */
+.container{
+    margin: 40px auto;
+    width: 70%;
+}
+span{
+    font-weight: 900;
+}
+.personal span{
+    font-style: italic;
+}
+/* Footer */
+
+footer{
+    background-color: #005677;
+    color: #FFF;
+    text-align:center;
+}
+h3{
+    /* si pusimos imagenes
+    display: inline-block
+    */
+}
