@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body>div{
+    background-color: #1CD1B0;
+    height: 38px
+}
+
+body>div>p{
+    padding-top: 13px;
+    margin-left: 10px;
+}
+header>div{
+    background-color: #00669F;
+    height: 100px
+}
+h1{
+    padding-top: 28px;
+    margin-left: 25px;
+}
+/*Main*/
+main{
+    margin-top: 100px;
+}
+.card{
+    width: 20%;
+    background-color: #fff;
+    text-align: center;
+}
+.bg-batman{
+    background-image: url(../fondo_batman.png);
+    height: 19px;
+    width: 100%;
+    background-repeat: no-repeat;
+}

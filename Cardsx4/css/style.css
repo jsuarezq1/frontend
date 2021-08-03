@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+ }
+ 
+:root {
+    --primary-color: #00669F;
+    --secundary-color: #D1891C;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/**--- Aqui comienza el header ----* */
+header>div{
+    background-color: var(--secundary-color);
+     height: 38px;  
+}
+header>div>p{
+    padding-top: 15px;
+    margin-left: 10px;
+}
+.titulo-heroes{
+    background-color: var(--primary-color);
+    height: 100px;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.801);
+}
+h1{
+    padding-top: 28px;
+    margin-left: 25px;
+    color:white
+}
+
+/***--- Aqui comienza el main----  **/
+main{
+    margin-top: 100px;
+    
+}
+.contenedor{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    width: 25%;
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+}
+.bg-batman{
+    background-image: url(../img/bg-batman.png);
+    height: 193px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.bg-super{
+    background-image: url(../img/bg-superm.png );
+    height: 193px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.bg-harley{
+    background-image: url(../img/bg-harley.png);
+    height: 193px;
+    width: 100%;
+    background-repeat: no-repeat; 
+}
+.bg-mujerm{
+    background-image: url(../img/bg-mujerm.png);
+    height: 193px;
+    width: 100%;
+    background-repeat: no-repeat; 
+}
+.vector{
+    background-image: url(../img/Vector.png);
+    width: 30px;
+    height: 26px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.vector {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+img{
+    width:50%;
+    border-radius: 50%;
+    /* z-index: 5;*/
+    position: relative;
+    bottom: 55px; 
+}
+section>h2{
+    padding-bottom: 20px;
+}
+section>p{
+   text-align: justify;
+   line-height: 20px;
+   padding: 0px 20px;
+}
+
+input[type=submit]{
+    background-color: var(--primary-color);
+    color: white;
+    width: 40%;
+    height: 48px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.644);
+}
+
+/**---Aqui comienza el footer-----**/
+footer{
+    margin-top: 100px;
+    background-color:var(--primary-color);
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}

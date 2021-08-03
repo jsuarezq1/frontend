@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+}
+header {
+    background-color: #222222;
+    Height: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.img-logo {
+    background-image: url('../img/VectorPizza.svg');
+    height: 90px;
+    width: 90px;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+h1{
+    font-size: 24px;
+    color: #FC200C;
+}
+span{
+    color:#39B24A;
+}
+.simbolo{
+    color:white;
+}
+
+/*Main*/
+.padre {
+    max-width: 500px;
+    height:500px;
+    border: 20x solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.podio {
+    display: flex;
+    justify-content: space-around;
+}
+/*Footer*/
+footer{
+    background-color: #222222;
+    Height: 100px;
+    display:flex;
+    justify-content: space-between;
+}
