@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios en HTML</title>
+</head>
+
+<body>
+  <html>
+    <p>Formulario de registro</p>
+
+  <head>
+    <title>Formulario de registro</title>
+  </head>
+
+  <body>
+    <form action="resultado.html" method="POST">
+      <p>
+        <label for="nombre"> Nombre: </label>
+        <input type="text" id="nombre" name="nombre">
+      </p>
+
+      <p>
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="email">
+      </p>
+
+      <p>
+        <label for="contrasenia"> Contraseña: </label>
+        <input type="password" id="contrasenia" name="password">
+      </p>
+      <input type="submit" value="Submit">
+    </form>
+    <br>
+    <p>Otro para meses con option</p>
+    <br>
+    <form action="resultado.html" method="POST">
+      <label>Elegí el mes de tu cumpleaños</label>
+      <!-- escribí tu código aquí -->
+      <select name="mes">
+        <option value="1"> Enero</option>
+        <option value="2"> Febrero</option>
+        <option value="3">Marzo </option>
+        <option value="4"> Abril</option>
+        <option value="5">Mayo </option>
+        <option value="6">Junio </option>
+        <option value="7">Julio </option>
+        <option value="8">Agosto </option>
+        <option value="9">Septiembre </option>
+        <option value="10">Octubre </option>
+        <option value="11">Noviembre </option>
+        <option value="12">Diciembre </option>
+      </select>
+      <input type="submit" value="Enviar">
+    </form>
+    <p>Formulario para comentarios</p>
+    <br>
+    <form action="resultado.html" method="POST">
+      <label>Dejanos tu comentario</label>
+      <!-- escribí tu código aquí -->
+      <textarea id="review" name="review" rows="4" cols="50">
+        Ingrese su comentario
+      </textarea>
+      <button type="submit"> Enviar</button>
+      <button type="reset"> Borrar</button>
+
+      
+
+  </body>
+
+  </html>
+
+</body>
+
+</html>
